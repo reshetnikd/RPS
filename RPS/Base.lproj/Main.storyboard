@@ -22,7 +22,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="👊🏻"/>
                                 <connections>
-                                    <action selector="chooseSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aw1-Kd-FDL"/>
+                                    <action selector="chooseRock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5xX-9R-mjI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFv-li-6Ks">
@@ -31,7 +31,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="✌🏻"/>
                                 <connections>
-                                    <action selector="chooseSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uf6-E5-asF"/>
+                                    <action selector="chooseScissors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ocp-lo-IZk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j64-PE-u6m">
@@ -63,7 +63,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="✋🏻"/>
                                 <connections>
-                                    <action selector="chooseSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0BQ-Qv-ZEa"/>
+                                    <action selector="choosePaper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GED-u6-Gg1"/>
                                 </connections>
                             </button>
                         </subviews>
