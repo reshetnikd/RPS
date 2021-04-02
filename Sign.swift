@@ -13,9 +13,9 @@ func randomSign() -> Sign {
     if sign == 0 {
         return .rock
     } else if sign == 1 {
-        return .scissors
-    } else {
         return .paper
+    } else {
+        return .scissors
     }
 }
 
@@ -26,10 +26,10 @@ enum Sign {
         switch self {
             case .rock:
                 return "👊🏻"
-            case .scissors:
-                return "✌🏻"
             case .paper:
                 return "✋🏻"
+            case .scissors:
+                return "✌🏻"
         }
     }
     
@@ -41,17 +41,17 @@ enum Sign {
                 return .lose
             case .rock where sign == .scissors:
                 return .win
-            case .scissors where sign == .scissors:
-                return .draw
-            case .scissors where sign == .rock:
-                return .lose
-            case .scissors where sign == .paper:
-                return .win
             case .paper where sign == .paper:
                 return .draw
             case .paper where sign == .scissors:
                 return .lose
             case .paper where sign == .rock:
+                return .win
+            case .scissors where sign == .scissors:
+                return .draw
+            case .scissors where sign == .rock:
+                return .lose
+            case .scissors where sign == .paper:
                 return .win
             default:
                 return nil
